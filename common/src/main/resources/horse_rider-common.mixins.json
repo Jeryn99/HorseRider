@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.horse_rider.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinAbstractHorse",
+    "MixinEntity",
+    "MixinHorse"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
