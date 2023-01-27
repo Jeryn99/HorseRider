@@ -1,7 +1,6 @@
-package net.horse_rider.fabric;
+package mc.craig.software.horse.fabric;
 
 import net.fabricmc.api.ModInitializer;
-import net.horse_rider.HorseRider;
 
 public class HorseRiderFabric implements ModInitializer {
     @Override

@@ -1,31 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "horse_rider",
+  "id": "riding_partners",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Riding Partners",
+  "description": "Ride Together, Explore More",
   "authors": [
-    "Me!"
+    "Suff99"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-horse_rider"
+    "homepage": "https://github.com/Suff99/HorseRider",
+    "sources": "https://github.com/Suff99/HorseRider"
   },
-  "license": "Insert License Here",
-  "icon": "assets/horse_rider/icon.png",
+  "license": "GNU Lesser General Public License v3",
+  "icon": "assets/riding_partners/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.horse_rider.fabric.HorseRiderFabric"
+      "mc.craig.software.horse.fabric.HorseRiderFabric"
     ]
   },
   "mixins": [
-    "horse_rider.mixins.json",
-    "horse_rider-common.mixins.json"
+    "riding_partners.mixins.json",
+    "riding_partners-common.mixins.json"
   ],
   "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.19.2",
-    "architectury": ">=6.2.43"
+    "minecraft": ">=1.19.2"
   }
 }

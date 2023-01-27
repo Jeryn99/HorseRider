@@ -1,35 +1,29 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/Suff99/HorseRider/issues"
+license = "GNU Lesser General Public License v3"
 
 [[mods]]
-modId = "horse_rider"
+modId = "riding_partners"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Riding Partners"
+authors = "Suff99"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Ride Together, Explore More
 '''
-#logoFile = ""
+logoFile = "assets/riding_partners/icon.png"
 
-[[dependencies.horse_rider]]
+[[dependencies.riding_partners]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.horse_rider]]
+[[dependencies.riding_partners]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.horse_rider]]
-modId = "architectury"
-mandatory = true
-versionRange = "[6.2.43,)"
-ordering = "AFTER"
-side = "BOTH"

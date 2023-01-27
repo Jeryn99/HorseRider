@@ -1,4 +1,4 @@
-package net.horse_rider.mixin;
+package mc.craig.software.horse.mixin;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;

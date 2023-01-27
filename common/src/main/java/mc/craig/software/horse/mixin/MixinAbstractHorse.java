@@ -1,11 +1,8 @@
-package net.horse_rider.mixin;
+package mc.craig.software.horse.mixin;
 
-import net.horse_rider.HorseRider;
-import net.minecraft.util.Mth;
+import mc.craig.software.horse.HorseRider;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.animal.horse.AbstractHorse;
-import net.minecraft.world.phys.Vec3;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
