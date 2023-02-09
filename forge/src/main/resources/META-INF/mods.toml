@@ -16,14 +16,14 @@ logoFile = "assets/riding_partners/icon.png"
 [[dependencies.riding_partners]]
 modId = "forge"
 mandatory = true
-versionRange = "[43,)"
+versionRange = "[44,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.riding_partners]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.3,)"
+versionRange = "[1.19.1,)"
 ordering = "NONE"
 side = "BOTH"
 
