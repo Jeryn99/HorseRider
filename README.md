@@ -8,5 +8,4 @@ This mod allows players to team up and ride on the same horse in Minecraft. One 
 - Allows two players to mount the same horse
 - Rider has control over horse's movements
 - Passenger can sit back and enjoy the ride
-- Players can switch positions at any time
 - Improves efficiency of exploration
