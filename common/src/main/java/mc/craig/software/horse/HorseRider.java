@@ -25,7 +25,7 @@ public class HorseRider {
             Vec3 vec3 = (new Vec3(0.0, 0.0, offset)).yRot(-abstractHorse.yBodyRot * 0.017453292F);
 
             if(kickUpCompensation > 0){
-                vec3 = vec3.relative(abstractHorse.getDirection().getOpposite(), 0.5F);
+                vec3 = vec3.with(abstractHorse.getDirection().getOpposite().getAxis(), 0.5F);
             }
 
             rider.setPos(abstractHorse.getX() + vec3.x, yOffset, abstractHorse.getZ() + vec3.z);

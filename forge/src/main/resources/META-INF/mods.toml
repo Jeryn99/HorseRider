@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[44,)"
+loaderVersion = "[40,)"
 issueTrackerURL = "https://github.com/Suff99/HorseRider/issues"
 license = "GNU Lesser General Public License v3"
 
@@ -16,14 +16,14 @@ logoFile = "assets/riding_partners/icon.png"
 [[dependencies.riding_partners]]
 modId = "forge"
 mandatory = true
-versionRange = "[44,)"
+versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.riding_partners]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.1,)"
+versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 

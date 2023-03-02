@@ -24,6 +24,6 @@
     "riding_partners-common.mixins.json"
   ],
   "depends": {
-    "minecraft": ">1.19.1"
+    "minecraft": "1.18.2"
   }
 }
