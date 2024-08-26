@@ -11,8 +11,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(AbstractHorse.class)
 public class MixinAbstractHorse {
 
-    @Inject(at = @At("HEAD"), method = "positionRider(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    public void positionRider(Entity rider, CallbackInfo ci) {
+    @Inject(at = @At("HEAD"), method = "positionRider(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity$MoveFunction;)V", cancellable = true)
+    public void positionRider(Entity rider, Entity.MoveFunction moveFunction, CallbackInfo ci) {
         AbstractHorse abstractHorse = (AbstractHorse) (Object) this;
         HorseRider.positionRider(abstractHorse, rider, ci);
     }

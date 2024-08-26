@@ -5,11 +5,11 @@
   "name": "Riding Partners",
   "description": "Ride Together, Explore More",
   "authors": [
-    "Suff99"
+    "Jeryn99"
   ],
   "contact": {
-    "homepage": "https://github.com/Suff99/HorseRider",
-    "sources": "https://github.com/Suff99/HorseRider"
+    "homepage": "https://github.com/Jeryn99/HorseRider",
+    "sources": "https://github.com/Jeryn99/HorseRider"
   },
   "license": "GNU Lesser General Public License v3",
   "icon": "assets/riding_partners/icon.png",
@@ -24,6 +24,6 @@
     "riding_partners-common.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.19.2"
+    "minecraft": ">=1.21"
   }
 }

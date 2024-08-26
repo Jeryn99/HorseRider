@@ -19,7 +19,7 @@ public class MixinHorse {
         if(horse.isVehicle()){
             horse.doPlayerRide(player);
             player.startRiding(horse, true);
-            cir.setReturnValue(InteractionResult.sidedSuccess(horse.level.isClientSide));
+            cir.setReturnValue(InteractionResult.sidedSuccess(horse.level().isClientSide));
         }
     }
 

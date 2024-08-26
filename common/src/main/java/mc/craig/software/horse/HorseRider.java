@@ -21,11 +21,13 @@ public class HorseRider {
             float kickUpCompensation = 0.20F * abstractHorse.standAnimO;
             float offset = HorseRider.getOffset();
 
-            float yOffset = (float) (abstractHorse.getY() + abstractHorse.getPassengersRidingOffset() + rider.getMyRidingOffset() - (1.5 * kickUpCompensation));
-            Vec3 vec3 = (new Vec3(0.0, 0.0, offset)).yRot(-abstractHorse.yBodyRot * 0.017453292F);
+            Entity pilot = abstractHorse.getFirstPassenger();
+            Vec3 pilotPos = abstractHorse.getPassengerRidingPosition(pilot);
+            double yOffset = pilotPos.y - 0.6;
+            Vec3 vec3 = (new Vec3(0.0, yOffset, offset)).yRot(-abstractHorse.yBodyRot * 0.017453292F);
 
             if(kickUpCompensation > 0){
-                vec3 = vec3.relative(abstractHorse.getDirection().getOpposite(), 0.5F);
+                vec3 = vec3.relative(abstractHorse.getDirection().getOpposite(), 0.6F).subtract(0, 0.5, 0);
             }
 
             rider.setPos(abstractHorse.getX() + vec3.x, yOffset, abstractHorse.getZ() + vec3.z);

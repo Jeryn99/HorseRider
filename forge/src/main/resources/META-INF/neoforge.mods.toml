@@ -1,29 +1,22 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-issueTrackerURL = "https://github.com/Suff99/HorseRider/issues"
+issueTrackerURL = "https://github.com/Jeryn99/HorseRider/issues"
 license = "GNU Lesser General Public License v3"
 
 [[mods]]
 modId = "riding_partners"
 version = "${version}"
 displayName = "Riding Partners"
-authors = "Suff99"
+authors = "Jeryn99"
 description = '''
 Ride Together, Explore More
 '''
 logoFile = "assets/riding_partners/icon.png"
 
 [[dependencies.riding_partners]]
-modId = "forge"
-mandatory = true
-versionRange = "[43,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.riding_partners]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.2,)"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "BOTH"
 
